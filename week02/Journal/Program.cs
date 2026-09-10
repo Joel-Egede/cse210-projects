@@ -18,6 +18,7 @@ class Program
             Console.WriteLine("3. Save the journal to a file");
             Console.WriteLine("4. Load the journal from a file");
             Console.WriteLine("5. Quit");
+            Console.WriteLine("6. Show number of entries");
 
             Console.Write("What would you like to do? ");
             
@@ -58,6 +59,20 @@ class Program
             {
                 Console.WriteLine("Goodbye!");
             }
+            else if (choice == "6")
+            {
+                // Creativity: This feature goes beyond the core requirements
+                // by allowing the user to see how many journal entries they have.
+
+                int entryCount = journal._entries.Count;
+                string entryWord = entryCount == 1 ? "entry" : "entries";
+                Console.WriteLine($"You currently have {entryCount} journal {entryWord}.");
+            }
+            else
+            {
+                Console.WriteLine("Invalid choice. Please try again.");
+            }
         }  
     }
 }
+                

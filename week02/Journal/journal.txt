@@ -1,0 +1,1 @@
+2026-09-10 | What is something you want to improve? | I am getting more comfortable with C# classes and objects.

@@ -1,0 +1,4 @@
+1050
+SimpleGoal|Finish CSE 210|Complete the Eternal Quest project|500|True
+EternalGoal|Scripture study|Read the scriptures daily|100
+ChecklistGoal|Temple Attendance|Attend the temple|50|3|200|3
